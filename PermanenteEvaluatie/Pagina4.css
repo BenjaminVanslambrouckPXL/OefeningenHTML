@@ -1,0 +1,137 @@
+nav{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.Paginas{
+    border: solid 2pt;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color:  #b48c36;
+    text-decoration: none;
+    background-color: #040404;
+}
+a:hover{
+    font-size: large;
+    color: white;
+}
+.pagina4{
+    background-color: #040404;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    color:  #b48c36;
+    margin-bottom: 10px;
+    border: solid  #b48c36 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer{
+    text-align: center;
+    color:  #b48c36;
+    border: solid  #b48c36 1px;
+
+}
+.headers{
+     color:  #b48c36;
+ }
+p.vak{
+    text-align: Left;
+    border: solid 1px black;
+    color: #b48c36;
+}
+.PaginaHeader{
+    color: #b48c36;
+    border-radius: 4px;
+    border: solid 4px;
+    width: 350px;
+    text-align: center;
+}
+p.ZinKlikBoven{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: #b48c36;
+    text-decoration: none;
+    width: 370px;
+}
+p.ZinKlikBoven a:hover{
+    color: black;
+}
+p.ZinKlikBoven a:visited{
+    color: #b48c36;
+}
+p{
+    color: #b48c36;
+}
+p ~ ul {
+    color: #b48c36;
+}
+.vak3::after {
+    content: "  Door tolkien  ";
+}
+.vak3::before {
+    content: "De bekendste ";
+}
+.vak3::first-line {
+    font-size: larger;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.fotosTolkien{
+    height: 650px;
+    width: 100%;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+ul.vak{
+    background-color: lightblue;
+    text-align: Left;
+    border: solid 1px black;
+}
+p:first-child {
+    background-color: lightblue;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 750px;
+}
+.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 750px;
+}
+.vak1{
+    width: fit-content;
+    color: #b48c36;
+}
+.vak2{
+    width: fit-content;
+    color: #b48c36;
+    text-align: justify;
+}
+.textKleuren{
+    color:  #b48c36;
+    text-align: justify;
+}
+

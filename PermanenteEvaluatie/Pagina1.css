@@ -1,0 +1,126 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+a.Paginas{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: gold;
+    text-decoration: none;
+    background-color: #101357;
+    position: sticky;
+    top: 0;
+}
+a:visited{
+    color: gold;
+}
+a:hover{
+    font-size: large;
+    color: white;
+}
+.pagina1{
+    background-color: #101357;
+    margin: 0;
+}
+header{
+    text-align: center;
+    color: gold;
+    margin-bottom: 11px;
+    border: solid gold 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer{
+    text-align: center;
+    color: gold;
+    border: solid gold 1px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+}
+.PaginaHeader{
+    color: gold;
+    border-radius: 4px;
+    border: solid 4px;
+    width: 350px;
+    text-align: center;
+}
+p.ZinKlikBoven{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: gold;
+    text-decoration: none;
+    width: 365px;
+}
+p.ZinKlikBoven a{
+    color: gold;
+}
+p.ZinKlikBoven a:visited{
+    color: gold;
+}
+p.ZinKlikBoven a:hover{
+    color: black;
+}
+p.vak{
+    color: gold;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+p.vak::first-letter{
+    font-size: xx-large;
+    font-weight: bold;
+}
+.vak1{
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: gold;
+    font-size: larger;
+}
+.vak1::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.vak1:nth-child(2){
+    font-size: larger;
+}
+.vak2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: gold;
+}
+.vak2::first-letter{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.fotoBen{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 8px, rgba(0, 0, 0, .0);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textCenter{
+    text-align: center;
+}
+table{
+    color: gold;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    text-align: center;
+}

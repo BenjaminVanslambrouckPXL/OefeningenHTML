@@ -1,0 +1,259 @@
+/*--------------------------------------------------------------------- pagina 1,2,3,4*/
+a.Paginas{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+
+}
+nav{
+
+    position: sticky;
+    top: 0;
+}
+a:hover{
+    font-size: large;
+    color: white;
+}
+
+p.vak{
+    background-color: lightblue;
+    text-align: Left;
+    border: solid 1px black;
+}
+.pagina1{
+    background-color: lightslategray;
+}
+.pagina2{
+    background-color: cadetblue;
+}
+.pagina3{
+    background-color: lightskyblue;
+}
+.pagina4{
+    background-color: lightseagreen;
+}
+header{
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer{
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+
+}
+.PaginaHeader{
+    color: black;
+    background-color: lightblue;
+    border-radius: 4px;
+    border: solid 4px;
+    width: 350px;
+    text-align: center;
+}
+p.ZinKlikBoven{
+     border: solid 2px;
+     padding: 6px;
+     border-radius: 4px;
+     margin-right: 3%;
+     color: black;
+     text-decoration: none;
+     background-color: lightblue;
+     width: 365px;
+ }
+
+p.ZinKlikBoven:hover{
+    color: black;
+}
+.vak1{
+    text-align: center;
+    background-color: lightblue;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.vak2{
+    text-align: right;
+    background-color: lightblue;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.fotoBen2{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 8px, rgba(0, 0, 0, .0);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-----------------------------------------------------------------------------------------------------pagina2 */
+.lijn{
+    border-style: solid;
+    border-bottom: solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+}
+.lijn2{
+    border-style: solid;
+    border-bottom: solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    float: left;
+}
+.fotoBen{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 8px, rgba(0, 0, 0, .0);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
+}
+.links{
+
+    padding-right: 25px;
+    padding-left: 20px;
+    float: left;
+}
+.rechts{
+    padding-left: 10px;
+    width: 71%;
+    padding-right: 12px;
+    background-color: white;
+    float: left;
+}
+.ZinKlikBoven2{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    width: 362px;
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+
+/*------------------------------------------------------------------------------------------ pagina3*/
+.vak3{
+    background-color: lightblue;
+    text-align: center;
+    border: solid 1px black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+table{
+    background-color: white;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid black 1px;
+}
+[class|=Uitleg] {
+    background: lightblue;
+    border: solid black 1px;
+}
+#TitelVideo{
+    text-align: center;
+}
+#Video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.center2{
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+}
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/*------------------------------------------------------------------------------------------ pagina4*/
+ul.vak{
+    background-color: lightblue;
+    text-align: Left;
+    border: solid 1px black;
+}
+p:first-child {
+    background-color: lightblue;
+}
+.center3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 750px;
+}
+.vak4{
+    background-color: lightblue;
+    border: solid black 1px;
+    width: fit-content;
+}
+.vak5{
+    background-color: lightblue;
+    border: solid black 1px;
+    width: fit-content;
+}
+
+
+
+
+
+
+
+

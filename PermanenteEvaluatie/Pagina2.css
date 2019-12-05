@@ -1,0 +1,127 @@
+nav{
+    position: sticky;
+    top: 0;
+}
+.Paginas{
+    border: solid 2pt;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+a:hover{
+    font-size: large;
+    color: white;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.pagina2{
+    background-color: cadetblue;
+    margin: 0;
+}
+.PaginaHeader{
+    color: black;
+    background-color: lightblue;
+    border-radius: 4px;
+    border: solid 4px;
+    width: 350px;
+    text-align: center;
+}
+header{
+    text-align: center;
+    color: black;
+    background-color: lightblue;
+    margin-bottom: 10px;
+    border: solid black 1px;
+    margin-left: 0;
+    margin-right: 0;
+}
+footer{
+    text-align: center;
+    color: black;
+    border: solid black 1px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    background-color: lightblue;
+}
+.ZinKlikBoven{
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: black;
+    text-decoration: none;
+    background-color: lightblue;
+    width: 365px;
+}
+.ZinKlikBoven a:visited{
+    color: black;
+}
+p.ZinKlikBoven:hover{
+    color: black;
+}
+.lijn{
+    border-style: solid;
+    border-bottom: solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 350px;
+}
+.lijn2{
+    border-style: solid;
+    border-bottom: solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    float: left;
+}
+.fotoBen{
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    box-shadow: 0 0 8px rgba(0,0,0,.8);
+    -webkit-box-shadow: 0 0 8px, rgba(0, 0, 0, .0);
+    -moz-box-shadow: 0 0 8px rgba(0,0,0,.8);
+}
+.links{
+
+    padding-right: 25px;
+    padding-left: 20px;
+    float: left;
+}
+.rechts{
+    padding-left: 10px;
+    width: 70%;
+    padding-right: 12px;
+    background-color: white;
+    float: left;
+
+}
+.left
+{
+    float: left;
+}
+
+.right
+{
+    float: right;
+}
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+#content-wrap{
+    padding-bottom: 20px;
+}
