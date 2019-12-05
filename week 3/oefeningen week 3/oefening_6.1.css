@@ -1,0 +1,79 @@
+body {
+    font-family: "Roboto Light", sans-serif;
+    background-color: gray;
+}
+
+#title {
+    color: orange;
+}
+
+.subtitle {
+    color: white;
+}
+
+.hover {
+    color: white;
+}
+
+.hover:hover {
+    font-size: 20px;
+    color: orange;
+}
+
+.list {
+    color: white;
+}
+
+.festivals {
+    border: solid 2px;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 3%;
+    color: white;
+    text-decoration: none;
+}
+
+.festivals:hover {
+    background-color: rgba(255, 165, 0, 0.2);
+    color: lightsalmon;
+    border-color: lightsalmon;
+}
+
+#Pukkelpop, #Rock_Werchter, #Tomorrowland, #Graspop, #Dour {
+    border: solid 2px darkorange;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 15px;
+    color: darkslategray;
+}
+
+#Pukkelpop .hover, #Rock_Werchter .hover, #Tomorrowland .hover, #Graspop .hover, #Dour .hover {
+    color: gray;
+}
+
+.article_title {
+    margin-top: 0;
+}
+
+#Pukkelpop {
+    background-color: blue;
+}
+
+#Rock_Werchter {
+    background-color: orange;
+}
+
+#Tomorrowland {
+    background-color: pink;
+}
+
+#Graspop {
+    background-color: green;
+}
+
+#Dour {
+    background-color: yellow;
+}
+ul {
+    list-style-image: url("iconfinder_29_Sound_alt_106217.png");
+}

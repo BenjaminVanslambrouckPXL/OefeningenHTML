@@ -1,0 +1,32 @@
+body {
+    background-color: #151c28;
+}
+
+h1, .soundboard {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.soundboard {
+    border: 2px solid #ffe14f;
+    width: 21.5%;
+    padding-right: 100px;
+    padding-top: 3.5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+h1 {
+    color: #ffe14f;
+}
+
+image {
+    padding-left: 0;
+    margin-left: 0;
+
+}
+
+.soundboard:hover {
+    background-color: #8daec6;
+}

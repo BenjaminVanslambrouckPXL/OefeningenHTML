@@ -1,0 +1,71 @@
+body{
+    font-family: "Roboto Thin";
+    background-color: lightslategrey;
+    color: white;
+}
+h1{
+    color: orange;
+}
+iframe{
+    border: solid 2px white;
+}
+ol :visited{
+    color: white;
+    font-size: larger;
+}
+ol :hover{
+    color: orange;
+    font-size: larger;
+}
+ul :visited{
+    color: white;
+    font-size: larger;
+}
+ul :hover{
+    color: orange;
+    font-size: larger;
+}
+
+a +.festival:visited{
+    color: white;
+    font-size: larger;
+}
+a + .festival:hover {
+    color: white;
+    font-size: larger;
+    background-color: lightsalmon;
+}
+a+.festival{
+    border: solid 2px white;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+    border-radius: 12%;
+}
+a +.red{
+    background-color: red;
+    border: solid 2px orange;
+    margin-left: 1%;
+}
+h3 +.geel{
+    background-color: yellow;
+    border: solid 2px orange;
+    margin-left: 1%;
+}
+h3 +.green{
+    background-color: green;
+    border: solid 2px orange;
+    margin-left: 1%;
+}
+h3 +.orange{
+    background-color: purple;
+    border: solid 2px orange;
+    margin-left: 1%;
+}
+h3 +.blue{
+    background-color: blue;
+    border: solid 2px orange;
+    margin-left: 1%;
+}
